@@ -32,4 +32,9 @@ class Artist
     songs.each {|song| puts song.name}
   end 
 
+  def add_song_by_title(title)
+    song = Song.new(title)
+    song.artist = self 
+  end   
+
 end
