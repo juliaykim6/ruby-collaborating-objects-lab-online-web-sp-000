@@ -22,7 +22,8 @@ class Song
     artist = name.split (" - ")[0]
     new_song = self.new(song)
     new_song.artist_name = artist
-    new_songend
+    new_song
+  end
 
 
 end
