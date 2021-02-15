@@ -13,5 +13,6 @@ class Artist
   end
 
   def add_song(song)
-    aong.artist = selfend
+    song.artist = self
+  end
 end
