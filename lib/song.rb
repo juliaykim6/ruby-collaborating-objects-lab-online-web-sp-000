@@ -6,11 +6,7 @@ class Song
 
   def initialize(name)
     @name = name
-    save
-  end
-
-  def save
-    @@all << self
+    @@all <<self
   end
 
   def self.all
@@ -22,7 +18,7 @@ class Song
     artist = name.split(" - ")[0]
     new_song = self.new(song)
     new_song.artist_name = artist
-    new_song 
+    new_song
   end
 
 
